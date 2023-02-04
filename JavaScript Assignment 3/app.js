@@ -54,15 +54,39 @@
 // variable = variable / 3;
 
 // l)
-// document.write("<br> The Remiander is: ")
-// document.write (0)
+// document.write("<br> The Remiander is: ");
+// document.write (0);
 
 
+// Question no 4
+// var ticket = 600;
+// ticket = 600 * 5;
+// document.write ("Total coast to buy 5 ticket to a movie is ");
+// document.write (ticket, " PKR ");
 
 
-
-
-
+// Question no 5
+// document.write("Table of 2");
+// var num1 = 2 * 1;
+// document.write (' <br> 2 * 1 = ', num1);
+// var num2 = 2 * 2;
+// document.write (' <br> 2 * 2 = ', num2);
+// var num3 = 2 * 3;
+// document.write (' <br> 2 * 3 = ', num3);
+// var num4 = 2 * 4;
+// document.write (' <br> 2 * 4 = ',num4);
+// var num5 = 2 * 5;
+// document.write (' <br> 2 * 5 = ', num5);
+// var num6 = 2 * 6;
+// document.write (' <br> 2 * 6 = ', num6);
+// var num7 = 2 * 7;
+// document.write (' <br> 2 * 7 = ', num7);
+// var num8 = 2 * 8;
+// document.write (' <br> 2 * 8 = ', num8);
+// var num9 = 2 * 9;
+// document.write (' <br> 2 /* 9 = ', num9);
+// var num10 = 2 * 10;
+// document.write (' <br> 2 * 10 = ', num10);
 
 
 
