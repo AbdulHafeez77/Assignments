@@ -195,4 +195,114 @@
 // alert(result);
 
 
-// Chapter no 12-13
+// Chapter no 12-11
+
+// Question no 1
+// var char = prompt("Enter a character");
+// var charCode = char.charCodeAt();
+
+// if (charCode>= 65 && charCode<= 90) {
+    // alert("Capital"); 
+// }
+// if (charCode>= 97 && charCode<= 122) {
+    // alert("Small");
+// }
+
+
+// Question no 2
+// var num1 = prompt("Enter any number");
+// var num2 = prompt("Enter second number");
+
+// if (num1< num2 ) {
+    // alert(num2 + " is a large number than " + num1)  
+// }
+// if (num1> num2 ) {
+    // alert(num1 + " is a large number than " + num2)  
+// }
+
+
+// Question no 3
+// var num = 0;
+// var input = prompt("Enter a number");
+
+// if (input> num) {
+    // alert("This is a positive number");
+// }
+// else if (input< num) {
+    // alert("This is a neagtive number"); 
+// }
+// else{
+    // alert ("this is zero which is neutral number");
+// }
+
+// Question no 4
+// var input = prompt("Enter any vowel character.");
+// var vowels = ["a", "e", "i", "o", "u"]
+
+// if (input == "a" || input =="e" || input == "i" || input == "o" || input == "u" ){
+    // alert("Correct! this is a vowel.");
+// }
+// else{
+    // alert("Incorrect! this is not a vowel.")
+// }
+
+
+// Question no 5
+// var input = prompt("Enter your password please.");
+// var pass = "password123";
+
+// if (input == pass) {
+    // alert("'Correct! The password you entered matches the original password”.'");
+// }
+// else{
+    // alert("'Sorry! Incorrect password.'")
+// }
+
+// Question no 6
+// var greeting = prompt("Enter your time");
+
+// if (greeting < 18) {
+    //  alert ("Good day");
+// }
+// else{
+    //  alert ("Good evening");
+// }
+
+
+
+// Question no 7
+// var time = prompt("Enter your time accodring to 24 hours format.");
+// var hours = (time - 12);
+// var hours2 = (time = time);
+
+// if (time> 12) {
+    // if (hours) { 
+        // alert(hours + "pm");
+    // }
+    // else {
+        // alert("Please! Enter your correct time");
+    // }
+// }
+// if (time< 12) {
+    //  if (hours2) {
+        // alert(hours2 + "am");
+// }
+// else {
+        // alert("Please! Enter your correct time");
+    //  }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
