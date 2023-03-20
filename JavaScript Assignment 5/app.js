@@ -325,19 +325,23 @@
 
 
 // Question no 7
-var a = ["cake", "apple pie", "cookie", "chips", "patties"];
-var input = prompt("Welcome to my Bakery. \n What do you want to order?");
+var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+var userInput = prompt ("Welcome to our bakery. What do you want to order?");
+userInput = userInput.toLowerCase();
 var flag = false;
 
-for(var i = 0; i < a.length; i++){
-    if (a[i] == input) {
-    flag = true; }
+for(var i = 0; i < arr.length; i++){
+    if(arr[i] == userInput){
+        flag == true;
+        break;
+    }
 }
-if(flag){
-    document.write(input + " is available at index " +  + " in our bakery.");
+
+if (flag === true) {
+    alert(userInput + " is available at index " + i + " in our bakery");
 }
-else{
-    document.write("We are sorry." + input + " is not available in our bakery.");
+else {
+    alert("We are sorry. " + userInput + " is not available in our bakery");
 }
 
 
