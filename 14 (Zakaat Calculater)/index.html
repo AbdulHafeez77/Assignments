@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-xxl">
+        <div class="container0">
+           <div class="heading">
+               <p> ZAKAT CALCULATER </p>
+           </div>
+           <div class="description">
+                <p> وَأَقِيمُواْ الصَّلاَةَ وَآتُواْ الزَّكَاةَ وَارْكَعُواْ مَعَ الرَّاكِعِينَ </p>
+           </div>
+           <br>
+           <div class="question">
+                <p>
+                  What is Zakat ?
+                </p>
+           </div>
+           <div class="pragraph">                   
+                <p> Zakat is recognising the blessings and wealth that Allah has bestowed upon us. It is a religious obligation on every Muslim that <br> has
+                    reached puberty, is sane and possesses the minimum required wealth (Nisab). It involves giving a set amount of 2.5% <br> of one’s wealth to those in need. 
+                    The believing men and believing women are allies of one another. They enjoin what <br> is right and forbid what is wrong and establish prayer and givezakah
+                    and obey Allah and His Messenger. Those <br> Allah will have mercy upon them. and Indeed, Allah is Exalted in  Might and Wise.” -Quran (9:71) 
+                </p>
+           </div>
+           <br>
+            <div class="container">
+            <div class="body row login-container justify-content-center align-items-center">
+                <div class="about col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="card my-card">
+                        <div style="box-shadow: 10px 10px 10px -5px;" class="card-body">
+                            <center><h2>CALCULATER</h2></center>                         
+                            <form>
+                                <div class="mb-3">
+                                    <label style="background-color: transparent !important;" class="form-label">Enter your Cash:</label>
+                                    <input placeholder="Rs:" type="number" class="form-control" id="cash">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Enter your Worth of Gold:</label>
+                                    <input placeholder="Rs:" type="number" class="form-control" id="gold">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Enter your Worth of Sliver:</label>
+                                    <input placeholder="Rs:" type="number" class="form-control" id="silver">
+                                </div>
+                                    <center><button onclick="calculate(event)"  type="submit" class="button calculate-btn"> CALCULATE </button></center><br>
+                                    <div class="result">
+                                        <div class="net-worth">
+                                          <p style="line-height: 8px; margin: 10px;">Your Net Worth:</p>
+                                          <p style="height: 40px; width: 220px;" class="form-control" id="your-amount"></p>
+                                        </div>
+                                        <br>
+                                        <div class="net-worth">
+                                           <p style="line-height: 8px; margin: 10px;">Zakat Payable:</p>
+                                           <p style="height: 40px; width: 220px;" class="form-control" id="zakat-amount"></p>
+                                        </div>
+                                    </div>
+                                    <center><a href="https://saylaniwelfare.com/en/donate">
+                                        <button style="margin-top: 18px; margin-bottom: 10px;" onclick="donate(event)" type="submit" class="button calculate-btn"> DONATE NOW </button>
+                                    </center></a>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>  
+             <br>
+             
+            <div class="follow">
+                <h5 class="follow-text">Please Folllow us on:</h5>
+                <center>
+                <img style="max-width: 60%; width: 25px; margin: 5px;"  src="https://www.pepsi.com/en-us/uploads/images/icon-twitter.svg?mtime=20180110134808" alt="twitter icon">
+                <img style="max-width: 60%; width: 25px; margin: 5px;" src="https://www.pepsi.com/en-us/uploads/images/icon-instagram.svg?mtime=20180110134805" alt="instagram icon">
+                <img style="max-width: 60%; width: 30px; margin: 5px;" src="https://www.pepsi.com/en-us/uploads/images/icon-youtube.svg?mtime=20180110134811" alt="youtube icon">
+                <img style="max-width: 60%; width: 25px; margin: 5px;" src="https://www.pepsi.com/en-us/uploads/images/icon-facebook.svg?mtime=20180110134803" alt="facebook icon">
+                </center>
+                <br>
+                <p class="follow-text">© 2023-Copywrite-All Rigths Reserved by ABDUL HAFEEZ.</p>
+
+            </div> 
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

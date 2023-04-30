@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-xxl{
+    background-color: #222222 !important;
+}
+
+.navigatin{
+      background-color: #222222 !important;
+}
+    
+
+.head{
+    background-color: #222222;
+}
+
+.logo{
+    margin-top: 5px !important;
+    margin-bottom: 2px !important;
+    margin-right: 80px;
+}
+
+
+.navbar{
+     background-color: #222222 !important;
+    
+}
+
+
+.navbar-toggler{
+    color: #fff !important;
+    background-color: #fff !important;
+}
+
+
+.nav{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: "Philosopher", Sans-serif !important;
+    margin-top: 20px !important;
+    font-size: 18px !important;
+}
+
+
+.nav-item :hover{
+   color: #ed1c24 !important;
+}
+
+.nav-item :active{
+    opacity: 0.5 !important;
+
+}
+
+
+.button{
+    color: #fff !important;
+    background-color: #ed1c24 !important;
+    border: #ed1c24 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    width: 180px !important;
+    height: 37px !important;
+    border-radius: 4px 4px 4px 4px ;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+
+.btn{
+   margin-top: 10px !important;
+   margin-bottom: 5px !important;
+}
+
+
+.btn :hover{
+    color: #222222 !important;
+}
+
+.image{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #222222;
+}
+
+@media only screen and (max-width: 500px) {
+    .image{
+        height: 200px;
+        width: 460px;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .image{
+        height: 1px;
+        width: 240px;
+    }
+}
+
+
+.lend{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+} 
+.about{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.my-card{
+    margin-top: 25px 15px 100px 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#mera-card{
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 8px; 
+} 
+
+
+
+.welcome{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    font-family: system-ui;
+    font-size: 100px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+   .welcome{
+        font-size: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .welcome{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .welcome{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .welcome{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 250px) {
+    .welcome{
+        font-size: 25px;
+    }
+}
+
+
+.welcome div{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline;
+}
+
+
+@media only screen and (max-width: 300px) {
+    .heading{
+        width: 200px;
+    }
+}
+
+
+.rest{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+@media only screen and (max-width: 300px) {
+    .rest{
+        font-size: 18px;
+    }
+}
+
+
+.our-brand{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin-top: 95px;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Philosopher", Sans-serif;;
+    text-align: center;
+}
+
+@media only screen and (max-width: 350px){
+    .our-brand{
+        font-size: 24px;
+    }
+}
+
+.pra{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff !important;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 350px) {
+    .pra{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+.bottom{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.franchises{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 350px) {
+    .cites,.logos  {
+        width: 200px;
+    }     
+}
+
+
+@media only screen and (max-width: 350px) {
+    .franchises div #pgraph{
+       font-size: 20px;
+   }
+}
+
+
+@media only screen and (max-width: 350px) {
+    #fgraph{
+       font-size: 12px;
+   }
+}
+
+
+.franchises #pgraph{
+    color: #ed1c24;
+    font-size: 50px;
+    font-family: system-ui; 
+    text-align: center;
+}
+
+.franchises p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cd{
+    margin-top: 16px;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+    background-color: #222222;
+}
+
+.cards p{
+    color :#fff;
+    text-align: center;
+    font-family:"Dosis", Sans-serif;;
+    background-color: none;
+    margin-top: 0.6px;
+    margin-bottom: 0px;
+}
+
+.cards h3{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Dosis", Sans-serif;;
+    margin-top: 10px;
+}
+
+#islamabad{
+    margin: 20px 10px 10px 10px;;
+    border: 4px solid #fff;
+    background-image: url("https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Restaurant-Islamabad-Franchise.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#faisalabad{
+    margin: 20px 10px 10px 10px;
+    border: 4px solid #fff;
+    background-image: url("https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Restaurant-Faisalabad-Franchise.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#bahawalpur{
+    margin: 20px 10px 10px 10px;
+    border: 4px solid #fff;
+    background-image:  url("https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Restaurant-Bahawalpur-Franchise.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pragraph{
+    color: #ed1c24 ;
+    margin-top: 100px;
+    font-size: 45px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+@media only screen and (max-width: 350px) {
+    .pragraph{
+       font-size: 22px;
+   }
+}
+
+
+
+.line{
+    height: 2px;
+    width: 15%;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 41%;
+    margin-left: 42%;
+}
+
+#bhera{
+    margin: 20px 10px 10px 10px;
+    border: 4px solid #fff;
+    background-image: url("	https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Express-Motorway-Bhera.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#package{
+    margin: 20px 10px 10px 10px;
+    border: 4px solid #fff;
+    background-image: url("https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Express-Packages-Mall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#mall{
+    margin: 20px 10px 10px 10px;
+    border: 4px solid #fff;
+    background-image:  url("https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Express-Emporium-Mall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#village{ 
+    margin: 0 auto;
+    border: 4px solid #fff;
+    background-image:  url("https://www.saltnpepper.com.pk/wp-content/uploads/2022/06/02-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.village{
+    margin: 0 auto;
+}
+
+.village h3{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Dosis", Sans-serif;;
+    margin-top: 10px;
+}
+
+.village p{
+    color :#fff;
+    text-align: center;
+    font-family:"Dosis", Sans-serif;;
+    background-color: none;
+    margin-top: 0.6px;
+    margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    #village{
+       width: 18rem !important;
+       justify-content: center !important;
+    }
+      
+}
+
+.opening{
+    color: #fff;
+    font-family: "Dosis", Sans-serif;
+    font-size: 25px;
+    line-height: 0.9px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 350px) {
+    .opening{
+       font-size: 15px;
+   }
+}
+
+
+.line2{
+    height: 2px;
+    width: 15.5%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+ .col h6{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: "Philosopher", Sans-serif;
+    font-weight: bold;
+ }
+
+ .col div{
+    border: 2.5px solid #ed1c24 !important;
+ }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.line3{
+    height: 2px;
+    width: 100%;
+    background-color: #ed1c24;
+    margin-bottom: 15px;
+}
+
+.line4{
+    height: 2px;
+    width: 100%;
+    background-color: #ed1c24;
+    margin-bottom: 13px;
+}
+
+.footer h4,p{
+    color: #fff;
+    font-family: "Philosopher", Sans-serif;
+}
+
+.a a{
+    color: white;
+    text-decoration: none;
+    font-family: "Philosopher", Sans-serif;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .a, a{
+       font-size: 13px;
+   }
+}
+
+.a :hover{
+    color: #ed1c24;
+}
+
+.a :active{
+    opacity: 0.5;
+    
+}
+
+.saltnpepper{
+    margin-left: 5px;
+}
+
+.saltnpepper,p{
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 350px) {
+    .saltnpepper, p{
+       font-size: 13px;
+   }
+}
+
+
+
+
+.follow{
+    margin-right: 100px;
+}
+
+
+.logo2{
+    margin-bottom: 10px;
+
+}
+
+.policy{
+    color: #fff;
+    text-align: center;
+    line-height: 0.5px;
+    margin-bottom: 5px;
+    font-family: "Dosis", Sans-serif;
+}
+
+.rights{
+    background-color: #fff;
+    color: #757575;
+    text-align: center;
+    font-family: "Dosis", Sans-serif;
+
+}
+.a svg:hover{
+    color: #ed1c24;
+}
+
+.a svg {
+    background-color: #fff;
+}

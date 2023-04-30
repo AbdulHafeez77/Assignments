@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    font-family: sans-serif !important;
+}
+
+
+.container0{
+    width: 100%;
+    height: 100%; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/file-23432-a43d15c2b5e6eb62a277743160fcf624.jpg);
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .container0{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/cf905aaa961b7b3848483e78de10a20b.jpg);
+    max-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+         
+     }
+ }
+
+
+.heading{
+    color: white;
+    text-align: center;
+    text-shadow: gray 6px 0 25px;
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .heading{
+         font-size: 56px;
+     }
+ }
+ @media only screen and (max-width: 750px) {
+    .heading{
+         font-size: 50px;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    .heading{
+         font-size: 44px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+    .heading{
+         font-size: 34px;
+     }
+ }
+ @media only screen and (max-width: 350px) {
+    .heading{
+         font-size: 24px;
+     }
+ }
+ @media only screen and (max-width: 250px) {
+    .heading{
+         font-size: 20px;
+     }
+ }
+
+
+.description{
+    margin: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: gray 6px 0 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 0%;
+}
+
+@media only screen and (max-width: 900px) {
+    .description{
+         font-size: 23px;
+     }
+ }
+ @media only screen and (max-width: 750px) {
+    .description{
+         font-size: 21px;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    .description{
+         font-size: 19px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+    .description{
+         font-size: 16px;
+     }
+ }
+ @media only screen and (max-width: 350px) {
+    .description{
+         font-size: 13px;
+     }
+ }
+ @media only screen and (max-width: 250px) {
+    .description{
+         font-size: 10px;
+     }
+ }
+
+.question{
+    font-size: 30px;
+    font-weight: bold; 
+    color: white; 
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .question{
+         font-size: 28px;
+     }
+ }
+ @media only screen and (max-width: 750px) {
+    .question{
+         font-size: 26px;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    .question{
+         font-size: 24px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+    .question{
+         font-size: 22px;
+     }
+ }
+ @media only screen and (max-width: 350px) {
+    .question{
+         font-size: 18.5px;
+     }
+ }
+ @media only screen and (max-width: 250px) {
+    .question{
+         font-size: 12px;
+     }
+ }
+
+
+ .pragraph{
+    color: white;
+    text-align: center;
+    margin: 12px;
+}
+
+ @media only screen and (max-width: 900px) {
+    .pragraph{
+         font-size: 14px;
+     }
+ }
+ @media only screen and (max-width: 750px) {
+    .pragraph{
+         font-size: 12.6px;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    .pragraph{
+         font-size: 11.6px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+    .pragraph{
+         font-size: 10.5px;
+     }
+ }
+ @media only screen and (max-width: 350px) {
+    .pragraph{
+         font-size: 9.5px;
+     }
+ }
+ @media only screen and (max-width: 250px) {
+    .pragraph{
+         font-size: 8px;
+     }
+ }
+  
+
+.about{
+    text-align: left;
+    color: white !important;
+}
+
+.my-card{ 
+    background-color :transparent !important;
+    color: white !important;
+    border: white 3px solid !important;   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .pragraph{
+         font-size: 15px;
+     }
+ }
+ @media only screen and (max-width: 750px) {
+    .pragraph{
+         font-size: 14.6px;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    .pragraph{
+         font-size: 13.6px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+    .pragraph{
+         font-size: 12.5px;
+     }
+ }
+ @media only screen and (max-width: 350px) {
+    .pragraph{
+         font-size: 11px;
+     }
+ }
+ @media only screen and (max-width: 250px) {
+    .pragraph{
+         font-size: 10px;
+     }
+ }
+ 
+
+
+.button{
+    padding: 8px 25px 8px 25px;
+    font-size:21px; 
+    color: white;
+    background-color:transparent; 
+    border:white 2px solid;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: white !important;
+    color: #182231;
+    font-weight: 740;
+}
+
+.button:focus{
+    opacity: 0.8;
+}
+
+
+.result{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.follow-text{
+    color: white;
+    /* line-height: 7px; */
+    /* padding: 10px; */
+    /* margin-top: 6px; */
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+@media only screen and (max-width: 900px) {
+    .follow-text{
+         font-size: 14px;
+     }
+ }
+ @media only screen and (max-width: 750px) {
+    .follow-text{
+         font-size: 12.6px;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    .follow-text{
+         font-size: 11.6px;
+     }
+ }
+ @media only screen and (max-width: 500px) {
+    .follow-text{
+         font-size: 10.5px;
+     }
+ }
+ @media only screen and (max-width: 350px) {
+    .follow-text{
+         font-size: 10x;
+     }
+ }
+ @media only screen and (max-width: 250px) {
+    .follow-text{
+         font-size: 9px;
+     }
+ }

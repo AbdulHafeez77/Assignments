@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.overlay {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background: url("images/pngtree-ramadan-2022-banner-background-picture-image_1738509.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 4rem;
+
+}
+
+.title {
+    margin: 50px 1px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    text-shadow: goldenrod 5px 0 25px;
+}
+
+.title span {
+    margin-top: 10px;
+    display: block;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.countdown-container>div {
+    margin: 0 2rem;
+    text-align: center;
+    border: 1px solid #0000;
+    padding: 0px 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 -3em 3em aqua, 0 0 0 2px aqua, 0.3em 0.3em 1em aquamarine;  
+    box-sizing: border-box;
+    color: black;
+    min-width: 150px;
+}
+
+@media(max-width:922px) {
+    .countdown-container>div {
+        margin: 0 1rem;
+    }
+}
+
+@media(max-width:767px) {
+    .countdown-container {
+        flex-wrap: wrap;
+    }
+
+    .countdown-container>div {
+        margin: 1rem auto;
+        max-width: 150px;
+    }
+.title{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin: 10px 0px;
+}
+.title span{
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+}
