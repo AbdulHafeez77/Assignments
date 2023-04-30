@@ -1,0 +1,63 @@
+.logo{
+    border: 0.5px solid rgb(158, 157, 157);
+    z-index: gray;
+    -moz-box-shadow: inset 0 0 10px #777777;  
+     -webkit-box-shadow: inset 0 0 10px #777777;
+    box-shadow: inset 0 0 10px #777777;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.nav{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.logo ul{
+    margin: 0 auto;
+}
+
+.logo ul li{
+    display: inline;
+}
+
+.nav{
+    word-spacing: 80px;
+}
+
+.box1{
+    border: 1px solid #000000;
+    border-color: #fff;
+}
+
+
+h1{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #787373;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #787373;
+    color: #000000;
+}
+
+
+ .images,.box2{
+    background-image: url(https://www.xmple.com/wallpaper/white-lines-stripes-streaks-grey-1920x1080-c2-ffffff-dcdcdc-l2-54-108-a-30-f-1.svg);
+    background-repeat: no-repeat;
+}
+
+
+.box2,.images{
+    background-image: url(https://www.xmple.com/wallpaper/white-lines-stripes-streaks-grey-1920x1080-c2-ffffff-dcdcdc-l2-54-108-a-30-f-1.svg);
+    background-repeat: no-repeat;
+
+}
