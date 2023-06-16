@@ -271,8 +271,22 @@ a{
 
 .card-title{
     font-size: 16px !important;
-    margin-top: 5px;
+    margin-top: 5px !important;
 }
+
+.title{
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.hr{
+    width: 99% !important;
+    height: 6px !important;
+    color: white !important;
+}
+
+
+
 
 .rank{
     color: #fff !important;
