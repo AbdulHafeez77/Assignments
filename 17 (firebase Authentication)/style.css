@@ -35,6 +35,7 @@
     color: #000;
 }
 
+
 h6{
     margin-top: 15px !important;
     text-align: center !important;
@@ -50,7 +51,6 @@ h6 a:hover{
     color: #d92732;
     font-weight: bolder;
 }
-
 
 
 .form-check-input:checked {

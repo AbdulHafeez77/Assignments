@@ -1,14 +1,13 @@
+var email = [];
+var password = [] ;
 
 function storeSignupInformation() {
     var signupEmail = document.getElementById("signup-email").value;
     var signupPass = document.getElementById("signup-pass").value;
   
-    localStorage.setItem("sign-email", signupEmail);
-    localStorage.setItem("sign-pass", signupPass);
-    
-    localStorage.setItem("sign-email", signupEmail);
-    localStorage.setItem("sign-pass", signupPass);
-  }
+    email.push(localStorage.setItem("sign-email", signupEmail));
+    password.push(localStorage.setItem("sign-pass", signupPass));
+}
   
   function checkInformation() {
     var loginEmail = document.getElementById("login-email").value;
@@ -24,6 +23,9 @@ function storeSignupInformation() {
       alert('Incorrect information!');
     }
   }
+
+
+
   
 
   
