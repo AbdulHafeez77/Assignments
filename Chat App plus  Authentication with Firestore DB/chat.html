@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg my-header">
+    <div class="container">
+        <a class="navbar-brand" href="#"> 
+           <img class="logo" width="50" height="45" src="images/chat-logo-fotor-20230719211530.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link my-nav" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active my-nav" href="#">Chats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-nav" href="#">Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-nav" href="#">Abouts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-nav" href="#">Calls</a>
+                </li>
+            </ul>
+            <div>
+                <button id="Log-out" type="button" class="btn my-btn2"><a href="index.html"></a>Log out</button>
+                <button type="button" class="btn my-btn2"><a href="signup.html"></a>Sign Up</button>
+            </div>
+        </div>
+    </div>
+</nav>
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+        <div class="card chats-card">
+          <div class="chat-header">
+            <h3> <img class="chat-logo" width="45" height="45" src="images/news_thumb02.png" /> Chats </h3>
+          </div>  
+          <ul class="list-group">
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Hamza </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> James Camron  </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Elizabeth Oslan </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/>  Sameer </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/>Mike Johnson</p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Mursaleen </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Olivia </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> John Wick </p>
+              </li>
+              <li class="list-group-item">
+                <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Orhan </p>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div style="height: 30px;"></div>
+        <div class="card mb-3" style="max-width: 600px;">
+          <div class="msg-header">
+            <i class="bi bi-arrow-left-circle-fill"> Elizabeth Oslan </i>
+            <i class="bi bi-telephone-x-fill" id="call-icon"></i>
+          </div>
+          <hr>
+          <ul class="chat-msg">
+            <li class="list-group-item user1">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Hey Boy </p>
+            </li>
+            <li class="list-group-item user2">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Hello </p>
+            </li>
+            <li class="list-group-item user1">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> How are you ?</p>
+            </li>
+            <li class="list-group-item user2">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> I'am fine, What's up </p>
+            </li>
+            <li class="list-group-item user1">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> I'am fantastic </p>
+            </li>
+            <li class="list-group-item user2">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Can I meet you in this evening ? </p>
+            </li>
+            <li class="list-group-item user1">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Yeah, Why not. </p>
+            </li>
+            <li class="list-group-item user2">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Great, then see you soon. </p>
+            </li>
+            <li class="list-group-item user1">
+              <p> <img class="chat-users" width="30" src="images/chat-users.png"/> Okay. </p>
+            </li>
+          </ul>
+          <div class="sender-area">
+            <div  class="input-place">
+              <input placeholder="Send a message." class="send-input" type="text">
+              <i class="bi bi-send-fill send-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>      
+  </div>
+  <br />
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="footer-links">
+                    <h4>Useful links </h4>
+                    <ul>
+                        <li>Tutorials</li>
+                        <li>Exercises</li>
+                        <li>Get Certified</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="footer-address">
+                    <h4> About </h4>
+                    <br>
+                    <span> Quiz App is optimized for learning and training. Examples might be simplified to improve
+                           reading and learning. Tutorials, references, and examples are constantly reviewed to avoid
+                           errors, but we cannot warrant full correctness of all content.
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <span>Copyright © 2023 by Quiz App</span>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script type="module" src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
